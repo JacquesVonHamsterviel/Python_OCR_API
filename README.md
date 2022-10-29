@@ -11,6 +11,9 @@ pip install web.py
 pip install --upgrade google-api-python-client
 pip install paddlepaddle
 其它缺什么装什么
+The machine does not support avx, you can try: pip install paddlepaddle-gpu==2.0.2 -f https://paddlepaddle.org.cn/whl/stable/noavx.html
+
+https://stackoverflow.com/questions/71348433/modulenotfounderror-no-module-named-paddle-fluid-core-noavx
 
 4. 建议本地post时不要用http://0.0.0.0:5689，替换为http://127.0.0.1:5689，如部署服务器或其它机器，改为http://本机ip:5689即可。
 
