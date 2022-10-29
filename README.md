@@ -9,7 +9,7 @@ Based on PaddleOCR
 pip install paddleocr
 pip install web.py
 pip install --upgrade google-api-python-client
-pip install paddlepaddle paddleocr
+pip install paddlepaddle
 其它缺什么装什么
 
 4. 建议本地post时不要用http://0.0.0.0:5689，替换为http://127.0.0.1:5689，如部署服务器或其它机器，改为http://本机ip:5689即可。
