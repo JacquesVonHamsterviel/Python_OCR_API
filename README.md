@@ -11,6 +11,7 @@ pip install web.py
 pip install --upgrade google-api-python-client
 pip install paddlepaddle
 其它缺什么装什么
+if you are installing the CPU version of Paddle, use pip install paddlepaddle==2.0.0rc1
 The machine does not support avx, you can try: pip install paddlepaddle-gpu==2.0.2 -f https://paddlepaddle.org.cn/whl/stable/noavx.html
 
 https://stackoverflow.com/questions/71348433/modulenotfounderror-no-module-named-paddle-fluid-core-noavx
